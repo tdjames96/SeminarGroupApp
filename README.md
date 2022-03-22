@@ -87,6 +87,23 @@ user_profilePicture       Image             Usr profile picture image
 
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- login Screen
+  - Snippet of home screen code
+  @IBAction func onSign(_ sender: Any) {
+        let user = PFUser()
+        
+        user.email = emailField.text
+        user.password = passwirdfield.text
+         
+        let password = passwirdfield.text!
+        let email = emailField.text!
+        
+        PFUser.logInWithUsername(inBackground: email, password: password) { (user, error) in
+            if user != nil{
+                self.performSegue(withIdentifier: "loginSegue" , sender: nil)
+            } else{
+                print("Error: \(error?.localizedDescription)")
+                
+                
+            }
+
