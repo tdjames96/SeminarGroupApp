@@ -1,4 +1,4 @@
-# SeminarGroupApp 1
+# SeminarGroupApp 
 
 Original App Design Project - README Template
 ===
