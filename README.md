@@ -107,3 +107,31 @@ user_profilePicture       Image             Usr profile picture image
                 
             }
 
+    - Allows User to log in but sends error if logni information is not valid
+    
+    
+-  Create Button
+  - Snippet of create account button code
+  
+  @IBAction func createButton(_ sender: Any) {
+        
+        let user = PFUser()
+        
+        user.email = emailText.text
+        user.password = passwordField.text
+        
+         
+        let password = passwordField.text!
+        let email = emailText.text!
+        let cPassword = cPasswordField.text
+        
+        user.signUpInBackground{ success, error in
+            if password == cPassword{
+                self.performSegue(withIdentifier: "loginSegue" , sender: nil)
+            } else{
+                print("Error: \(error?.localizedDescription)")
+                
+                
+            }
+            
+  - Allows user to sign up for an account. If the password is good it will allow user to log in to app. if not, error will be given.
