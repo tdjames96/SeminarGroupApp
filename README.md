@@ -17,9 +17,9 @@ Student experiences vary from person to person, but one thing most students stru
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
+- **Category:Finance 
 - **Mobile: IOS**
-- **Story:**
+- **Story:N/A
 - **Market: College Students**
 - **Habit:**
 - **Scope: Help college students keep track and budget money**
@@ -30,38 +30,38 @@ Student experiences vary from person to person, but one thing most students stru
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+*Shows user finance and budgeting plan
 
-**Optional Nice-to-have Stories**
-
-* [fill in your required user stories here]
-* ...
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* [Login page]
+   * [user can login to account or create an account ]
+* [Create account page]
+   * [user can create account by putting in his email and selecting a password]
+   [Questinnare  page]
+   * [user input their data ]
+ * [Home Page]
+   * [Dispalys user info and budgeting tips]
+   [Settings Page]
+   * [user can change data if needed]
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* [Home Page]
+* [Settings Page]
+
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
+* [Login Page ]
+   * [Show Detail(Home Page)]
+   * [Show Detail(Create Account Page)]
+   * [Show Detail(Forgot Password Page)]
+* [Create Account Page]
+   * [Show Detail(Questionnare Page)]
    * ...
 
 ## Wireframes
