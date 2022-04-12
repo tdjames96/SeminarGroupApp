@@ -1,0 +1,6 @@
+framework module Pods_SS_SSUITests {
+  umbrella header "Pods-SS-SSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

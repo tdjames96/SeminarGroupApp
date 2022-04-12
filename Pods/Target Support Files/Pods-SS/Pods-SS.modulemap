@@ -1,0 +1,6 @@
+framework module Pods_SS {
+  umbrella header "Pods-SS-umbrella.h"
+
+  export *
+  module * { export * }
+}
