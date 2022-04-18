@@ -30,7 +30,9 @@ Student experiences vary from person to person, but one thing most students stru
 
 **Required Must-have Stories**
 
-*Shows user finance and budgeting plan
+-Shows user finance and budgeting plan
+-User can change info from profile page
+
 
 
 ### 2. Screen Archetypes
