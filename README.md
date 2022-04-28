@@ -13,7 +13,7 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-Student experiences vary from person to person, but one thing most students struggle with are finances. Not only are students spending money on tuition, school supplies, and food, but many have bills to pay including rent, car notes or insurance, and more! Once students graduate, they’re met with more financial struggles like paying off their loans and debts. The average student borrower will spend up to 20 years to pay their debt. This can be a headache after transitioning out of college into the real-world. This application will help students, especially graduating students, budget their money during and after school. Our application will give students a visual representation of how they spend their money and guidelines to budget their money the right way to help manage their money while in school and pay off their debt after graduation carefree.
+Student experiences vary from person to person, but one thing most students struggle with are finances.  Once students graduate, they’re met with more financial struggles like paying off their loans and debts. The average student borrower will spend up to 20 years to pay their debt. This can be a headache after transitioning out of college into the real-world. This application will help students, especially graduating students, budget their money during and after school. Our application will give students a visual representation in a graph of their income vs spending, give them options to manages expenses, and manage debt. Students will be given a questionarre asking about expenses and will have a profile to enter phone number, email, expenses, and income.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
@@ -30,7 +30,9 @@ Student experiences vary from person to person, but one thing most students stru
 
 **Required Must-have Stories**
 
-*Shows user finance and budgeting plan
+-Shows user finance and budgeting plan
+-User can change info from profile page
+
 
 
 ### 2. Screen Archetypes
